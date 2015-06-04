@@ -1,5 +1,10 @@
 # multi-ssh
 
+[![Code Climate](http://img.shields.io/codeclimate/github/denis-sokolov/multi-ssh.svg)](https://codeclimate.com/github/denis-sokolov/multi-ssh)
+[![bitHound Score](https://app.bithound.io/denis-sokolov/multi-ssh/badges/score.svg)](http://app.bithound.io/denis-sokolov/multi-ssh)
+[![Codacy Badge](https://www.codacy.com/project/badge/9b687b5bdd5640098f60da7e5e15002c)](https://www.codacy.com/app/denis_2849/multi-ssh)
+[![Dependency Status](https://gemnasium.com/denis-sokolov/multi-ssh.svg)](https://gemnasium.com/denis-sokolov/multi-ssh)
+
 Run the same command on multiple servers.
 Authentication is left for your ssh client, presumably your passwordless authentication is set up.
 
