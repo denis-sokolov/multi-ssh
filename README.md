@@ -10,8 +10,12 @@ Authentication is left for your ssh client, presumably your passwordless authent
 
 ## CLI
 
+The output from various servers will be nicely colored per server.
+
 ```bash
 $ multi-ssh server1 server2 -- uname -a
+server1: 30973
+server2: 9869
 ```
 
 ## API
