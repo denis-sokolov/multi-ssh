@@ -2,7 +2,7 @@
 
 var childProcess = require('child_process');
 
-var Promise = require('Promise');
+var Promise = require('promise');
 
 var quote = require('shell-quote').quote;
 

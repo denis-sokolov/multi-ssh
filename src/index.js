@@ -2,6 +2,8 @@
 
 var events = require('events');
 
+var Promise = require('promise');
+
 var run = require('./run');
 
 module.exports = function(servers, command){
