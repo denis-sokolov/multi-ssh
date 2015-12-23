@@ -6,11 +6,9 @@ var Promise = require('promise');
 
 var quote = require('shell-quote').quote;
 
-var exec = Promise.denodeify(childProcess.exec);
-
 var api = function(args){
 	return new Promise(function(resolve, reject){
-		exec(quote(args), function(err, stdout, stderr){
+		childProcess.exec(quote(args), function(err, stdout, stderr){
 			if (err)
 				reject(new Error(stderr));
 			else
