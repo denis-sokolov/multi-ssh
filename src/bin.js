@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 'use strict';
+/* eslint no-process-exit: 0 */
 
 var chalk = require('chalk');
 var cycle = require('cycle-values');
@@ -21,7 +22,14 @@ var output = function(colorify, server, data){
 	);
 };
 
-var args = parseArgs(process.argv);
+var args;
+try {
+	args = parseArgs(process.argv.slice(2));
+} catch (err) {
+	process.stderr.write('Error: ' + err.message + '\n');
+	process.stderr.write('Usage: multi-ssh server1 server2 -- command with parameter\n');
+	process.exit(2);
+}
 multiSsh(args.servers, args.command)
 	.on('step', function(server, stdout){
 		output(color(), server, stdout);
