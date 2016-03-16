@@ -16,6 +16,6 @@
     "chalk": "^1.0.0",
     "cycle-values": "^1.0.1",
     "promise": "^7.1.1",
-    "shell-quote": "^1.4.3"
+    "shell-quote": "^1.5.0"
   }
 }
