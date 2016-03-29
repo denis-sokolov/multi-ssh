@@ -13,7 +13,7 @@
     "url": "http://github.com/denis-sokolov/multi-ssh.git"
   },
   "dependencies": {
-    "chalk": "^1.0.0",
+    "chalk": "^1.1.3",
     "cycle-values": "^1.0.1",
     "promise": "^7.1.1",
     "shell-quote": "^1.4.3"
