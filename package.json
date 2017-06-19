@@ -15,7 +15,7 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "cycle-values": "^1.0.1",
-    "promise": "^7.1.1",
+    "promise": "^8.0.0",
     "shell-quote": "^1.4.3"
   }
 }
