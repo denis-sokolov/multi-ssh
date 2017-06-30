@@ -4,6 +4,9 @@
   "description": "Run the same command on multiple servers",
   "bin": "src/bin.js",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
