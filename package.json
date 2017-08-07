@@ -16,7 +16,7 @@
     "url": "http://github.com/denis-sokolov/multi-ssh.git"
   },
   "dependencies": {
-    "chalk": "^2.0.0",
+    "chalk": "^2.1.0",
     "cycle-values": "^1.0.1",
     "promise": "^8.0.0",
     "shell-quote": "^1.4.3"
